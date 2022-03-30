@@ -8,6 +8,8 @@ AFRAME.registerComponent("gesture-handler", {
     maxScale: { default: 8 },
   },
 
+/* Aqui van las funciones */
+
   init: function () {
     this.handleScale = this.handleScale.bind(this);
     this.handleRotation = this.handleRotation.bind(this);
