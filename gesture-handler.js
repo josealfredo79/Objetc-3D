@@ -1,4 +1,4 @@
-/* global AFRAME, THREE */
+/*librerias global AFRAME, THREE */
 
 AFRAME.registerComponent("gesture-handler", {
   schema: {
